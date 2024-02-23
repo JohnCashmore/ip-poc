@@ -1,0 +1,23 @@
+{
+  "name": "ip-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "script": "node -r dotenv/config --import tsx",
+    "addIp": "pnpm script src/addIp.ts",
+    "listIps": "pnpm script src/listIps.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.20",
+    "@types/yargs": "^17.0.32",
+    "dotenv": "^16.4.5",
+    "is-ip": "^5.0.1",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "yargs": "^17.7.2"
+  }
+}

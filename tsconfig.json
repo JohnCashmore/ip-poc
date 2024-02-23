@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"declarationMap": true,
+		"lib": ["ES2019", "ES2019.Array", "dom", "dom.iterable", "esnext"],
+		"types": ["node"],
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"allowJs": true,
+		"target": "ES2015",
+		"module": "CommonJS",
+		"strict": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"baseUrl": "./src",
+		"useUnknownInCatchVariables": false,
+		"skipLibCheck": true
+	},
+	"include": ["./**/**.ts"],
+	"exclude": [
+		"**/*/__mocks__/*",
+		"node_modules/**/*",
+		".serverless/**/*",
+		".webpack/**/*",
+		"_warmup/**/*",
+		".vscode/**/*",
+	]
+}
